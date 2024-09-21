@@ -23,7 +23,10 @@ a {
   @apply text-primary-500 hover:text-primary-600 transition-colors hover:underline hover:underline-offset-2 flex flex-wrap justify-center items-center gap-2;
 }
 a > img, a > svg {
-  @apply fill-primary-500 w-4 h-4;
+  @apply fill-primary-500 w-4 h-4 transition-colors;
+}
+header {
+  @apply bg-dark-white-transparent dark:bg-light-black text-light-white dark:text-dark-white;
 }
 
 
